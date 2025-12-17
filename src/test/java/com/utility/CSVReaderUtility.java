@@ -22,7 +22,7 @@ public class CSVReaderUtility {
         List<User> userList = new ArrayList<User>();
         User user;
 
-        File csvFile = new File(System.getProperty("user.dir")+"\\testData\\"+fileName);
+        File csvFile = new File(System.getProperty("user.dir")+"//testData//"+fileName);
         try {
             fileReader = new FileReader(csvFile);
             csvReader = new CSVReader(fileReader);
